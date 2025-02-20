@@ -22,7 +22,7 @@ function App() {
       // 半分の確率で0, 半分の確率で1
       // listから選択
       diceResult = list[Math.floor(Math.random() * list.length)];
-    }else if(diceType=='8'){
+    }else if(diceType==='8'){
       // 1から8のランダム
       const list = [1,2,3,4,5,6,7,8];
       // listから選択
